@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">Uwaechi Temilayo</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Sections -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Uwaechi Emmanuel Temilayo</span></h1>
+                <h2>Web developer, CAD specialist in fusion 360</h2>
+                <p>Aspiring tech specialist with a focus on Web Development and 3D CAD design using Fusion 360 — blending creativity with technical precision.</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+            <div class="hero-image">
+                <!-- Replace with your image -->
+                <img src="your-image.jpg" alt="Your Name">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>I am a budding innovator passionate about solving problems through technology. I specialize in web development and computer-aided design (CAD) using Fusion 360, and I’m actively expanding my skills in machine learning and data analysis to build impactful digital solutions.</h3>
+                    <p>My journey into technology began at Olabisi Onabanjo University (OOU) as I was studying Mechanical engineering, where I was first recognized for my proficiency in Computer-Aided Design (CAD) during classes and exams. At the time, CAD was my main technical skill, but everything changed during my final year when I chose to work on a machine learning-based project. This exposure to the power of intelligent systems sparked a genuine interest in programming and data-driven problem-solving. Since then, I’ve been driven by a passion to explore and grow in the field of programming, combining my CAD background with emerging technologies to create innovative solutions and expand my expertise in modern computing.</p>
+                    <p>This is merely a part of my progress as I aim to further develop applications and craft automated systems.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">3</span>
+                        <span class="stat-text">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1</span>
+                        <span class="stat-text">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">0</span>
+                        <span class="stat-text">Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <!-- Skill items - add more as needed -->
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>CAD - fusion 360</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <!-- Add more skills like this -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project cards - duplicate and modify -->
+                <div class="project-card">
+                    <img src="images/oou-logo.png" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Well-to-wheel prediction of carbon footprint from freight truck using machine learning</h3>
+                        <p>This project involves designing and evaluating machine learning models to predict carbon emissions from freight trucks based on historical and operational data. Using algorithms like Random Forest and Linear Regression, the model estimates emission levels across different truck categories—light, medium, and heavy-duty. The goal is to support environmental sustainability by providing accurate emission forecasts that can inform policy, logistics, and energy transition decisions in the transportation sector.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i> uwaechitemilayo@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +2349135239247</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
